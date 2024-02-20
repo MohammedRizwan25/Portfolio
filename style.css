@@ -4,6 +4,22 @@
     font-family: "Teko", sans-serif;
     font-size:large;
 }
+
+
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .image {
+float: inline-end;    }
+  }
+  
+  /* Media query for screens smaller than 400px */
+  @media (max-width: 400px) {
+    .image img{
+        float: inline-end; /* Further reduce image width to 60% of its container on even smaller screens */
+    }
+  }
+  
 .span{
     font-size: large;
 }
@@ -112,4 +128,9 @@ filter: drop-shadow(100%);
     justify-content: center;
     padding: 20px;
     margin: 20px;
+}
+
+.col-lg-3 col-md-6{
+    justify-content: center;
+    -ms-flex-align: center;
 }
