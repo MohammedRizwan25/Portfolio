@@ -128,9 +128,22 @@ filter: drop-shadow(100%);
     justify-content: center;
     padding: 20px;
     margin: 20px;
+    animation: slide 2s infinite alternate;
+
 }
 
 .col-lg-3 col-md-6{
     justify-content: center;
     -ms-flex-align: center;
+}
+
+
+.col-lg-3 col-md-6{
+    display:inline-block;
+}
+
+.image{animation: pluse 2s infinite;}
+@keyframes pulse{
+    0%, 100%{transform: scale(1);}
+    50%{transform: scale(1.2);}
 }
