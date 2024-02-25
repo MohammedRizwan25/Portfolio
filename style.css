@@ -129,8 +129,3 @@ filter: drop-shadow(100%);
     display:inline-block;
 }
 
-.image{animation: pluse 2s infinite;}
-@keyframes pulse{
-    0%, 100%{transform: scale(1);}
-    50%{transform: scale(1.2);}
-}
