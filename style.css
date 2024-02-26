@@ -132,3 +132,13 @@ filter: drop-shadow(100%);
 .display-5 mb-0{
     background-color: aqua;
 }
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+
+.searchbar{
+    padding: 50px;
+    text-align: center;
+}
