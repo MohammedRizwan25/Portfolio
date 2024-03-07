@@ -88,6 +88,7 @@ left: 70%;
 .image img{
     height: 100%;
     position: absolute;
+    display: flex;
     left: 50%;
     bottom: 10%;
     transform: translateX(-50%);
@@ -104,7 +105,7 @@ filter: grayscale(0);
 
 .image:hover .bc1{
     left:45px;
-filter: drop-shadow(100%);
+filter: drop-shadow(50%);
 }
 .mb-0{
     color: black;
